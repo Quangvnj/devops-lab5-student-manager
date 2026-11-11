@@ -24,6 +24,10 @@ def main():
 
     print(f"\nTotal: {len(students)} students")
 
+
+if __name__ == "__main__":
+    main()
+
 def add_student(students: list, student_id: str, name: str, age: int, grade: str) -> list:
     """Thêm sinh viên mới vào danh sách.
 
